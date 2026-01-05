@@ -9,26 +9,26 @@
     {
       "id": "project-portfolio",
       "description": "Screenshot of a personal portfolio website.",
-      "imageUrl": "https://images.unsplash.com/photo-1730267252256-67bee55353e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHwzZCUyMHBvcnRmb2xpb3xlbnwwfHx8fDE3Njc2MzY4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d portfolio"
+      "imageUrl": "https://images.unsplash.com/photo-1641444473031-75aa19c003a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3ZWJzaXRlJTIwcG9ydGZvbGlvfGVufDB8fHx8MTc2NzYzNDk0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website portfolio"
     },
     {
       "id": "project-weather",
       "description": "Screenshot of a weather forecasting app.",
-      "imageUrl": "https://images.unsplash.com/photo-1707396171816-fb12f0ecdec3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHwzZCUyMHdlYXRoZXJ8ZW58MHx8fHwxNzY3NjM2ODQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d weather"
+      "imageUrl": "https://images.unsplash.com/photo-1705077296278-d82dd5c8662f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3ZWF0aGVyJTIwZm9yZWNhc3R8ZW58MHx8fHwxNzY3NjE2MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "weather forecast"
     },
     {
       "id": "project-eathealthy",
       "description": "Screenshot of a health and fitness app.",
-      "imageUrl": "https://images.unsplash.com/photo-1710322144652-bcea73280334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHwzZCUyMGhlYWx0aHxlbnwwfHx8fDE3Njc2MzY4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d health"
+      "imageUrl": "https://images.unsplash.com/photo-1611178239338-bc6232793df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoZWFsdGglMjBmaXRuZXNzfGVufDB8fHx8MTc2NzYzNTg0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "health fitness"
     },
     {
       "id": "project-ipl",
       "description": "Screenshot of a cricket data analysis app.",
-      "imageUrl": "https://images.unsplash.com/photo-1690992494559-615cc6695b05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHwzZCUyMGNyaWNrZXR8ZW58MHx8fHwxNzY3NjM2ODQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d cricket"
+      "imageUrl": "https://images.unsplash.com/photo-1743343181385-1cb1f04f0ea7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3JpY2tldCUyMGFuYWx5dGljc3xlbnwwfHx8fDE3Njc2MzU4NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cricket analytics"
     }
   ]
 }
