@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import profileImageSrc from "../../../public/profile.jpg";
 
 const Hero = () => {
   const profileImage = PlaceHolderImages.find(p => p.id === "profile-picture");
@@ -48,7 +49,7 @@ const Hero = () => {
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
             {profileImage && (
               <Image
-                src={profileImage.imageUrl}
+                src={profileImageSrc}
                 alt={profileImage.description}
                 width={500}
                 height={500}
