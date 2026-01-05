@@ -3,8 +3,10 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const Hero = () => {
+  const profileImage = PlaceHolderImages.find(p => p.id === "profile-picture");
 
   const scrollTo = (id: string) => {
     const element = document.getElementById(id);
@@ -44,15 +46,17 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-            <Image
-                src="/profile.jpg"
-                alt="A professional portrait of Charak Srivastava."
+            {profileImage && (
+              <Image
+                src="https://media.licdn.com/dms/image/v2/D5603AQFA0KpWV3bMow/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711086901427?e=1769040000&v=beta&t=2IdNgiZTl3yiBTVTd9XoDz4QrQVdCwHNovKNhXxfceY"
+                alt={profileImage.description}
                 width={500}
                 height={500}
-                data-ai-hint="professional portrait"
+                data-ai-hint={profileImage.imageHint}
                 className="rounded-full object-cover border-8 border-accent/20 shadow-2xl"
                 priority
               />
+            )}
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent rounded-full animate-pulse opacity-50 -z-10"></div>
             <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary rounded-lg animate-pulse opacity-50 -z-10"></div>
           </div>
