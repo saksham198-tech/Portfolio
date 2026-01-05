@@ -16,7 +16,14 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative flex items-center justify-center min-h-screen pt-20 bg-background">
+    <section id="hero" className="relative flex items-center justify-center min-h-screen pt-20 bg-background overflow-hidden">
+      {/* Floating Shapes */}
+      <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-primary/20 rounded-full animate-pulse -z-10"></div>
+      <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-accent/20 rounded-lg animate-pulse -z-10 transform rotate-45"></div>
+      <div className="absolute bottom-1/4 left-1/3 w-40 h-40 bg-primary/10 rounded-full animate-pulse -z-10"></div>
+      <div className="absolute bottom-1/2 right-1/3 w-20 h-20 bg-accent/10 rounded-full animate-pulse -z-10"></div>
+
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
           <div className="text-center md:text-left md:w-1/2 lg:w-3/5 space-y-6">

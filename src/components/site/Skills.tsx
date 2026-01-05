@@ -1,13 +1,35 @@
 import SectionWrapper from "./SectionWrapper";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle } from "lucide-react";
+import { Code, Languages, Database, GitBranch, Cloud, Wand2 } from "lucide-react";
+import React from 'react';
 
 const skills = {
-  "Programming Languages": ["C", "Java", "Python"],
-  "Web Development": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Node.js", "Express.js"],
-  "Databases": ["SQL", "MongoDB"],
-  "Tools": ["Postman", "Git", "GitHub"],
-  "Deployment": ["Vercel", "Netlify"]
+  "Programming Languages": [
+    { name: "C", icon: <Code className="w-5 h-5 text-accent" /> },
+    { name: "Java", icon: <Code className="w-5 h-5 text-accent" /> },
+    { name: "Python", icon: <Languages className="w-5 h-5 text-accent" /> },
+  ],
+  "Web Development": [
+    { name: "HTML", icon: <Code className="w-5 h-5 text-accent" /> },
+    { name: "CSS", icon: <Code className="w-5 h-5 text-accent" /> },
+    { name: "JavaScript", icon: <Code className="w-5 h-5 text-accent" /> },
+    { name: "Tailwind CSS", icon: <Wand2 className="w-5 h-5 text-accent" /> },
+    { name: "Node.js", icon: <Code className="w-5 h-5 text-accent" /> },
+    { name: "Express.js", icon: <Code className="w-5 h-5 text-accent" /> },
+  ],
+  "Databases": [
+    { name: "SQL", icon: <Database className="w-5 h-5 text-accent" /> },
+    { name: "MongoDB", icon: <Database className="w-5 h-5 text-accent" /> },
+  ],
+  "Tools": [
+    { name: "Postman", icon: <Wand2 className="w-5 h-5 text-accent" /> },
+    { name: "Git", icon: <GitBranch className="w-5 h-5 text-accent" /> },
+    { name: "GitHub", icon: <GitBranch className="w-5 h-5 text-accent" /> },
+  ],
+  "Deployment": [
+    { name: "Vercel", icon: <Cloud className="w-5 h-5 text-accent" /> },
+    { name: "Netlify", icon: <Cloud className="w-5 h-5 text-accent" /> },
+  ]
 };
 
 const Skills = () => {
@@ -22,9 +44,9 @@ const Skills = () => {
             <CardContent>
               <ul className="space-y-2">
                 {list.map(skill => (
-                  <li key={skill} className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-accent" />
-                    <span className="text-foreground/80">{skill}</span>
+                  <li key={skill.name} className="flex items-center gap-3">
+                    {skill.icon}
+                    <span className="text-foreground/80">{skill.name}</span>
                   </li>
                 ))}
               </ul>
