@@ -24,10 +24,10 @@ const Hero = () => {
               Charak Srivastava
             </h1>
             <p className="text-xl md:text-2xl font-medium text-foreground/80">
-              Aspiring Software Engineer & AI Enthusiast
+              Full Stack Developer
             </p>
             <p className="text-lg text-foreground/70 max-w-xl mx-auto md:mx-0">
-              I build innovative and user-friendly web applications, leveraging modern technologies to create impactful digital experiences.
+              I build scalable and high-performance web applications, leveraging modern technologies to create impactful digital experiences.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 pt-4">
               <Button size="lg" className="font-bold" onClick={() => scrollTo('projects')}>

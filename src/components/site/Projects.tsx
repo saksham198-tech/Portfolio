@@ -17,21 +17,29 @@ const projects = [
     githubLink: "https://github.com/saksham198-tech"
   },
   {
-    title: "AI Project Recommender",
-    description: "A GenAI-powered tool that suggests personalized project ideas based on a user's skillset and interests to help them learn and grow.",
-    tags: ["GenAI", "Next.js", "Firebase"],
-    image: PlaceHolderImages.find(p => p.id === 'project-ai-tool'),
-    liveLink: "#",
-    githubLink: "#"
+    title: "Weather Forecasting",
+    description: "Developed a responsive web application to display real-time weather data. Integrated external Weather API for accurate forecasting.",
+    tags: ["HTML", "CSS", "JavaScript", "Weather API"],
+    image: PlaceHolderImages.find(p => p.id === 'project-weather'),
+    liveLink: "https://weatherforecast198.vercel.app",
+    githubLink: "https://github.com/saksham198-tech/weatherforecast198"
   },
   {
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce website with product listings, a shopping cart, and a checkout process. Integrated with a backend for order management.",
-    tags: ["React", "Node.js", "Express", "MongoDB"],
-    image: PlaceHolderImages.find(p => p.id === 'project-e-commerce'),
-    liveLink: "#",
-    githubLink: "#"
+    title: "EatHealthy",
+    description: "Built a health and fitness web platform promoting nutrition awareness. Optimized frontend performance and UI structure.",
+    tags: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    image: PlaceHolderImages.find(p => p.id === 'project-eathealthy'),
+    liveLink: "https://fithealthknown.vercel.app",
+    githubLink: "https://github.com/saksham198-tech/Healthknown"
   },
+    {
+    title: "IPL Studio",
+    description: "Developed an interactive IPL analytics platform with team and player insights. Improved data readability using dynamic rendering and visualization.",
+    tags: ["React", "JavaScript", "Data Visualization"],
+    image: PlaceHolderImages.find(p => p.id === 'project-ipl'),
+    liveLink: "https://iplanalysis198.vercel.app",
+    githubLink: "https://github.com/saksham198-tech/iplanalysis198"
+  }
 ];
 
 const Projects = () => {

@@ -4,16 +4,10 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "Software Development Intern",
-    company: "Tech Solutions Inc.",
-    period: "Summer 2023",
-    description: "Developed and maintained features for a large-scale web application using React and Node.js. Collaborated with a team of developers in an agile environment, participating in daily stand-ups and code reviews."
-  },
-  {
-    role: "Web Developer (Freelance)",
-    company: "Various Clients",
-    period: "2022 - Present",
-    description: "Designed and built responsive websites for small businesses, handling everything from initial consultation and design to deployment and maintenance. Utilized technologies like WordPress, Next.js, and Tailwind CSS."
+    role: "Full Stack Web Developer Intern",
+    company: "Hanumant Technology",
+    period: "Jun 2024 - Jul 2024",
+    description: "Developed and optimized full-stack applications using Node.js, Express.js, and React, improving load efficiency by 30%. Designed RESTful APIs and integrated SQL and MongoDB databases, reducing data retrieval time by 25%. Built responsive UIs using Tailwind CSS and JavaScript, increasing user engagement by 40%. Implemented API testing and automation using Postman and GitHub workflows, improving deployment speed by 20%."
   }
 ];
 

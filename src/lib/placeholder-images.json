@@ -3,7 +3,7 @@
     {
       "id": "profile-picture",
       "description": "A professional portrait of Charak Srivastava.",
-      "imageUrl": "https://images.unsplash.com/photo-1607990283143-e81e7a2c9349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njc1Mzc0MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1655249493799-9cee4fe983bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njc1Mzc0MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "professional portrait"
     },
     {
@@ -13,16 +13,22 @@
       "imageHint": "website portfolio"
     },
     {
-      "id": "project-ai-tool",
-      "description": "UI for an AI-powered recommendation tool.",
-      "imageUrl": "https://images.unsplash.com/photo-1744900647430-965ccc7a6078?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxBSSUyMGludGVyZmFjZXxlbnwwfHx8fDE3Njc2MzQ5NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "AI interface"
+      "id": "project-weather",
+      "description": "Screenshot of a weather forecasting app.",
+      "imageUrl": "https://images.unsplash.com/photo-1705077296278-d82dd5c8662f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3ZWF0aGVyJTIwZm9yZWNhc3R8ZW58MHx8fHwxNzY3NjE2MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "weather forecast"
     },
     {
-      "id": "project-e-commerce",
-      "description": "Homepage of an e-commerce website.",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1596559880461-bfbef645963f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlLWNvbW1lcmNlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3Njc1Mzg4MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "e-commerce website"
+      "id": "project-eathealthy",
+      "description": "Screenshot of a health and fitness app.",
+      "imageUrl": "https://images.unsplash.com/photo-1611178239338-bc6232793df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoZWFsdGglMjBmaXRuZXNzfGVufDB8fHx8MTc2NzYzNTg0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "health fitness"
+    },
+    {
+      "id": "project-ipl",
+      "description": "Screenshot of a cricket data analysis app.",
+      "imageUrl": "https://images.unsplash.com/photo-1743343181385-1cb1f04f0ea7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3JpY2tldCUyMGFuYWx5dGljc3xlbnwwfHx8fDE3Njc2MzU4NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cricket analytics"
     }
   ]
 }

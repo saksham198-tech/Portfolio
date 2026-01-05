@@ -4,7 +4,7 @@ import { Github, Linkedin, Instagram, Mail } from "lucide-react";
 import React from "react";
 
 const socialLinks = [
-  { icon: <Linkedin />, href: "https://www.linkedin.com/in/charak-srivastava-a8a113278/", label: "LinkedIn" },
+  { icon: <Linkedin />, href: "https://linkedin.com/in/charak-srivastava", label: "LinkedIn" },
   { icon: <Github />, href: "https://github.com/saksham198-tech", label: "GitHub" },
   { icon: <Instagram />, href: "https://www.instagram.com/sakshamsrivastava198/", label: "Instagram" },
 ];
@@ -17,7 +17,7 @@ const Contact = () => {
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team. Feel free to reach out!
         </p>
         <Button asChild size="lg" className="font-bold mb-12">
-          <a href="mailto:charak.srivastava.dev@gmail.com">
+          <a href="mailto:srivastavasaksham198@gmail.com">
             <Mail className="mr-2 h-5 w-5" /> Say Hello
           </a>
         </Button>

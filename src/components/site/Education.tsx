@@ -4,23 +4,17 @@ import { GraduationCap } from "lucide-react";
 
 const education = [
   {
-    degree: "Bachelor of Technology in Computer Science",
-    institution: "University of Technology",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
+    institution: "Dr. A.P.J. Abdul Kalam Technical University (AKTU)",
     period: "2021 - 2025",
-    details: "Relevant Coursework: Data Structures, Algorithms, Database Management Systems, Operating Systems, Artificial Intelligence."
-  },
-  {
-    degree: "High School Diploma",
-    institution: "City Public School",
-    period: "2019 - 2021",
-    details: "Focused on science and mathematics, achieving top grades in computer science."
+    details: "Relevant Coursework: Data Structures, Object-Oriented Programming, DBMS, Web Development, Software Engineering."
   }
 ];
 
 const Education = () => {
   return (
     <SectionWrapper id="education" title="Education">
-      <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <div className="grid md:grid-cols-1 gap-8 max-w-3xl mx-auto">
         {education.map((edu, index) => (
           <Card key={index} className="flex flex-col shadow-lg hover:shadow-xl transition-shadow duration-300">
             <CardHeader>

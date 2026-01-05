@@ -7,6 +7,7 @@ import Footer from "@/components/site/Footer";
 import Header from "@/components/site/Header";
 import Hero from "@/components/site/Hero";
 import Projects from "@/components/site/Projects";
+import Skills from "@/components/site/Skills";
 import Stats from "@/components/site/Stats";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <Stats />
         <Experience />
         <Projects />
+        <Skills />
         <Education />
         <Certifications />
         <Contact />
