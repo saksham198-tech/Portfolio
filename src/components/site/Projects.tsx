@@ -25,7 +25,12 @@ const projects = [
     title: "Weather Forecasting",
     description: "Developed a responsive web application to display real-time weather data. Integrated external Weather API for accurate forecasting.",
     tags: ["HTML", "CSS", "JavaScript", "Weather API"],
-    image: PlaceHolderImages.find(p => p.id === 'project-weather'),
+    image: {
+      id: 'project-weather-updated',
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyMJ1dS4rOu9Bd3YG39cxEwul6bTGoKF_EOw&s',
+      description: 'Screenshot of a weather forecasting app.',
+      imageHint: 'weather forecast'
+    },
     liveLink: "https://weatherforecast198.vercel.app",
     githubLink: "https://github.com/saksham198-tech/weatherforecast198"
   },
