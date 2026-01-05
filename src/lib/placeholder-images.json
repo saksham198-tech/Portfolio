@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile-picture",
+      "description": "A professional portrait of Charak Srivastava.",
+      "imageUrl": "https://images.unsplash.com/photo-1607990283143-e81e7a2c9349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njc1Mzc0MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "project-portfolio",
+      "description": "Screenshot of a personal portfolio website.",
+      "imageUrl": "https://images.unsplash.com/photo-1641444473031-75aa19c003a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3ZWJzaXRlJTIwcG9ydGZvbGlvfGVufDB8fHx8MTc2NzYzNDk0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website portfolio"
+    },
+    {
+      "id": "project-ai-tool",
+      "description": "UI for an AI-powered recommendation tool.",
+      "imageUrl": "https://images.unsplash.com/photo-1744900647430-965ccc7a6078?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxBSSUyMGludGVyZmFjZXxlbnwwfHx8fDE3Njc2MzQ5NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI interface"
+    },
+    {
+      "id": "project-e-commerce",
+      "description": "Homepage of an e-commerce website.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1596559880461-bfbef645963f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlLWNvbW1lcmNlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3Njc1Mzg4MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "e-commerce website"
+    }
+  ]
 }
