@@ -12,7 +12,12 @@ const projects = [
     title: "Personal Portfolio",
     description: "An interactive portfolio website to showcase my skills, projects, and experience. Built with Next.js, TypeScript, and Tailwind CSS for a modern, responsive design.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui"],
-    image: PlaceHolderImages.find(p => p.id === 'project-portfolio'),
+    image: {
+      id: 'project-portfolio-updated',
+      imageUrl: 'https://thumbs.dreamstime.com/b/portfolio-text-futuristic-banner-stock-market-investment-ideal-business-financial-planning-visuals-portfolio-text-325924394.jpg',
+      description: 'Futuristic banner for a portfolio.',
+      imageHint: 'portfolio banner'
+    },
     liveLink: "#",
     githubLink: "https://github.com/saksham198-tech"
   },
