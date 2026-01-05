@@ -36,7 +36,12 @@ const projects = [
     title: "IPL Studio",
     description: "Developed an interactive IPL analytics platform with team and player insights. Improved data readability using dynamic rendering and visualization.",
     tags: ["React", "JavaScript", "Data Visualization"],
-    image: PlaceHolderImages.find(p => p.id === 'project-ipl'),
+    image: {
+      id: 'project-ipl-updated',
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS__8cHazDtkbXRrSny-VT8rzuNCMTL1px-yxgWcx00E1JSVrhX0VktW95tK3QFXJKAES4&usqp=CAU',
+      description: 'Screenshot of a cricket data analysis app.',
+      imageHint: 'cricket analysis'
+    },
     liveLink: "https://iplanalysis198.vercel.app",
     githubLink: "https://github.com/saksham198-tech/iplanalysis198"
   }
