@@ -38,7 +38,12 @@ const projects = [
     title: "EatHealthy",
     description: "Built a health and fitness web platform promoting nutrition awareness. Optimized frontend performance and UI structure.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
-    image: PlaceHolderImages.find(p => p.id === 'project-eathealthy'),
+    image: {
+      id: 'project-eathealthy-updated',
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGIdHlmr8Eaw-PtQ0WY9wipIEtiH_uzlTzpw&s',
+      description: 'Screenshot of a health and fitness app.',
+      imageHint: 'health fitness'
+    },
     liveLink: "https://fithealthknown.vercel.app",
     githubLink: "https://github.com/saksham198-tech/Healthknown"
   },
