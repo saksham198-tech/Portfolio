@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
             {profileImage && (
               <Image
-                src="/profile.jpg"
+                src={profileImage.imageUrl}
                 alt={profileImage.description}
                 width={500}
                 height={500}
